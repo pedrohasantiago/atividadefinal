@@ -1,0 +1,6 @@
+[submodule "SANOFI"]
+	path = SANOFI
+	url = https://github.com/VinicioAlves/SANOFI
+[submodule "Web"]
+	path = Web
+	url = https://github.com/VinicioAlves/SANOFI
