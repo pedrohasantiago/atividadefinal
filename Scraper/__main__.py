@@ -87,7 +87,7 @@ class Page:
         'SFaixa_Etária_1': 'TODAS_AS_CATEGORIAS__',
         'pesqmes19': 'Digite o texto e ache fácil',
         'SFaixa_Etária_2': ['6', '7', '8'],
-        'SSexo': '2',
+        'SSexo': '1',
         'SCor/raça': 'TODAS_AS_CATEGORIAS__',
         'formato': 'prn',
         'mostre': 'Mostra'
@@ -143,7 +143,7 @@ class Fields:
     faixa_etária: str
     município_cod: Optional[str]
     morbidade: str = 'Epilepsia'
-    sexo: str = 'Feminino'
+    sexo: str = 'Masculino'
     source: str = 'SUS'
     variable: str = 'Morbidade Hospitalar'
     description: str = field(init=False)
