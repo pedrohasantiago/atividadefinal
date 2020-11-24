@@ -1,0 +1,81 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica;
+}
+
+#topo{
+	height: 300px;
+	text-align: center;
+}
+
+#topo img{
+	padding-top: 20px;
+	height: 76%;
+	border-bottom: 2px solid #7A83B9;
+}
+
+#topo h1{
+	display: none;
+	margin: 50px;
+}
+
+#form{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h2{
+	color: #CEAA74;
+}
+
+input{
+	display: block;
+	margin: 30px auto;
+	width: 90%;
+	height: 45px;
+	font-size: 1.2rem;
+	padding-left: 20px;
+	outline: none;
+}
+
+input:focus{
+	border: 2px solid #7A83B9;
+}
+
+button{
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	background-color: #7A83B9;
+	font-size: 1.2rem;
+	color: white;
+	opacity: .9;
+}
+
+button:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+/******** MEDIAS ***********/
+
+@media(min-width: 768px){
+	input{
+		width: 50%;
+	}
+}
+
+@media(min-width: 1440px){
+	input{
+		width: 30%;
+	}
+}
