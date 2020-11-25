@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/node,python,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,python,vscode
 
@@ -261,3 +260,4 @@ dmypy.json
 
 *.pem
 .jshintrc
+config.json # DB key here
