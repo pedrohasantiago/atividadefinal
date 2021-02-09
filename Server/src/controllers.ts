@@ -18,11 +18,7 @@ export class MongoDBController {
       num = await this.countCollection();
     } else if (mongoLen === null) { // I want no series, but I sent a query
       ({ num } = await this.getSeries(request.query, 0));
-<<<<<<< HEAD
     } else { // User wants results + count.
-=======
-    } else {
->>>>>>> 030f7d495f577fd21c97dc35e2c69594c193a824
       ({ series, num } = await this.getSeries(request.query, mongoLen));
     }
     // Geting distinct fields
